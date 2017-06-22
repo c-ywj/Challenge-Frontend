@@ -4,72 +4,46 @@
 
     <title>Web Challenge</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js"></script>
-    <script src="js/apiClient.js"></script>
-    <script src="js/main.js"></script>
-
-    <style>
-      body {
-        font-family: 'Open Sans', sans-serif;
-      }
-      h1 {
-        font-size: 56px;
-      }
-      h3 {
-        font-size: 20px;
-      }
-      #n-primary li {
-        display: inline-block;
-        text-align: left;
-      }
-      a{
-        color:#000;
-      }
-      #content{
-        width: 100%;
-        max-width: 1100px;
-        margin: 0 auto;
-      }
-      .footer {
-        background: #000;
-        color: #FFF;
-        text-align: center;
-      }
-    </style>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
   <body>
-    <div class="navigation">
-      <div id="n-primary">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Campaigns</a></li>
-        <li><a href="#">Files</a></li>
-        <li><a href="#">Departments</a></li>
-        <li><a href="#">Members</a></li>
+      <div class="navigation">
+        <div id="n-primary">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">DASHBOARD</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CAMPAIGNS</a></li>
+          <li><a href="#">FILES</a></li>
+          <li><a href="#">DEPARTMENTS</a></li>
+          <li><a href="#">MEMBERS</a></li>
+          <form id="search">
+            <input type="text"
+                   name="searchInput"
+                   placeholder="Search Everywhere">
+          </form>
+        </div>
       </div>
 
-      <div id="search">
-      </div>
+    <div class="banner">
+      <h1>Welcome to the Community</h1>
+      <p>Share, connect and collaborate.</p>
     </div>
 
+
     <div id="content">
-      <div class="banner">
-        <h1>Welcome to the Community</h1>
-        <p>Share, connect and collaborate.</p>
-      </div>
       <h2>Members</h2>
       <!--Insert Members Here -->
 
       <a id="js-btn-action-more" class="btn-load-more" href="#">Load more</a>
     </div>
 
-    <div class="footer">
-      <p>Copyright 2016</p>
-    </div>
+    <footer class="footer">
+      <p>&copy; 2016</p>
+    </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js"></script>
+    <script src="js/apiClient.js"></script>
+    <script src="js/main.js"></script>
   </body>
 <html>
