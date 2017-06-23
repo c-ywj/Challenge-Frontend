@@ -1,6 +1,7 @@
 /**
  * Request next set of members thought ApiGetClient
  */
+
 var ApiGetClient = new Class({
   Extends: Request,
   options: {

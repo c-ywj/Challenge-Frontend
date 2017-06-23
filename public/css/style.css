@@ -64,14 +64,11 @@ body {
   height: 100%;
   min-height: 100%;
   font-family: 'Open Sans', sans-serif;
-  background: url(../assets/community-members-background.jpg)
-              no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .navigation {
   font-family: sans-serif;
+  font-size: 0.8em;
   background-color: white;
   height: 3em;
   width: 100%;
@@ -79,6 +76,17 @@ body {
   padding: 1em 0;
   text-align: center;
 }
+
+.navigation a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  color:            black;
+  }
+.navigation a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color:            black;
+  }
 
 .banner {
   text-align: center;
@@ -123,15 +131,15 @@ a{
 
 #content{
   width: 100%;
-  min-height: 450px;
+  min-height: 400px;
   margin: 0 auto;
-  margin-top: 15em;
+  margin-top: 17em;
   background-color: white;
 }
 
 .footer {
   clear: both;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 /*  z-index: 10;
