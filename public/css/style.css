@@ -133,8 +133,19 @@ a{
   width: 100%;
   min-height: 400px;
   margin: 0 auto;
-  margin-top: 17em;
+  margin-top: 20em;
   background-color: white;
+}
+
+#members img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#members .row {
+  display: inline-block;
+  max-width: 350px;
+  max-height: 100px;
 }
 
 .footer {
