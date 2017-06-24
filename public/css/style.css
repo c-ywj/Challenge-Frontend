@@ -70,10 +70,10 @@ body {
   font-family: sans-serif;
   font-size: 0.8em;
   background-color: white;
-  height: 3em;
+  height: 4em;
   width: 100%;
   margin: 0;
-  padding: 1em 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -113,6 +113,8 @@ h2 {
 #n-primary #search {
   display: inline-block;
   margin-left: 10em;
+  margin-top: 0.5em;
+  border-style: solid black 2px;
 }
 
 #n-primary #search input {
@@ -130,11 +132,34 @@ a{
 
 
 #content{
+    position: relative;
+
   width: 100%;
-  min-height: 400px;
+  min-height: 2000px;
   margin: 0 auto;
   margin-top: 20em;
   background-color: white;
+}
+
+#members {
+  margin: 0 auto;
+  max-height: 2200px;
+}
+
+#members div {
+  margin: 0 auto;
+}
+
+#members .row {
+  margin: 0 1em;
+  display: inline-block;
+  width: 15%;
+  max-height: 100px;
+}
+
+#members .col .s12 .m7 {
+  margin: 0;
+  margin-left: 2em;
 }
 
 #members img {
@@ -142,11 +167,6 @@ a{
   max-height: 150px;
 }
 
-#members .row {
-  display: inline-block;
-  max-width: 350px;
-  max-height: 100px;
-}
 
 .footer {
   clear: both;

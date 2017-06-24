@@ -43,7 +43,7 @@ $( () => {
 
       data.results.forEach((m) => {
         console.log(m.picture.thumbnail);
-        photos.push(m.picture.thumbnail);
+        photos.push(m.picture.medium);
       });
 
       data.results.forEach((m) => {
@@ -52,10 +52,10 @@ $( () => {
       });
 
       console.log("this is the list: " + firstNames);
-      const resultTable = renderMembers(firstNames, photos, emails);
-      console.log("this is result table" + resultTable);
+      const resultBlock = renderMembers(firstNames, photos, emails);
+      console.log("this is result block" + resultBlock);
 
-      $("#members").html(resultTable);
+      $("#members").append(resultBlock);
       console.log($("#members").html());
       }
     });
